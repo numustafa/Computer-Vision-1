@@ -1,0 +1,5 @@
+# Binary Image Processing
+* Thresholding operations - convert grayscale image to binary image. This comprises of methods such as Erosion (shrinking), Dilation (expanding), Opening (erosion followed by dilation), Closing (dilation followed by erosion).
+* Blob detection - detect connected regions in binary image. This comprises of methods such as Connected Components (finds connected components in binary image), SimpleBlobDetector (detects blobs in binary image), and are used to detect blobs of a specific characteristic such as size, shape, and color.
+* Connected Components Analysis - used for labeling blobs in binary image. This comprises of methods such as ConnectedComponentsWithStats (finds connected components in binary image and provides statistics for each label), and ConnectedComponents (finds connected components in binary image).
+* Contour Analysis - used for finding contours in binary image, and use them in herirachical order. This comprises of methods such as FindContours (finds contours in binary image), DrawContours (draws contours in binary image), and ContourArea (calculates contour area).
